@@ -74,6 +74,8 @@
 .cta-btn--resume {
   color: $white-color;
   border: 2px solid $white-color;
+  padding: 1rem 2rem;
+  font-size: 200%;
 
   &::after {
     background: $white-color;

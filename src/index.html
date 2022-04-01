@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -17,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
-
+    <!-- site title -->
+    <title>Joshua Oni </title>
+    <!-- coding keywords -->
+    <meta name="keywords" content="javascript, react, node, joshuaoni, developer, frontend, front-end, express, programmer" />
+    <!-- small description of me -->
+    <meta name="description" content="Joshua Oni | Full Stack Developer" />
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="./sass/Contact.css" />
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
@@ -38,26 +28,23 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
-
-    <!-- **** Hero Section **** -->
+   
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Joshua Oni</span>
           <br />
-          I'm the Unknown Developer.
+          I'm Full Stack Web Developer.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
+            >About Me</a
           >
         </p>
       </div>
     </section>
-    <!-- /END Hero Section -->
 
     <!-- **** About Section **** -->
     <section id="about">
@@ -79,11 +66,20 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
-              </p>
-              <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                I am a Full Stack Developer with expertise in building 
+                both client-side and server-side web applications. 
+                I primarily use the technologies indicated in my resume below 
+                in my work. <br/>I am fueled by my determination to make an 
+                impact in the world in any way I possibly can. Building projects from scratch 
+                that can make a positive impact on people in the real world is something that 
+                drives me everyday. I consider myself a "Forever Student", eager to  
+                build on my existing skill-set in this field, and to stay in tune with the latest 
+                advancements in the world of software development. I love working in teams, 
+                I love what I do, and I revel in the tasking 
+                process it entails. <br/>When I'm not in front of my computer working, I enjoy reading, savoring 
+                art and I love sports! <br/>I am currently open to work in the web development industry. Do you 
+                have a project you would want me to work on? Please use the contact form at the bottom of this page 
+                to send me an email.
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -100,7 +96,6 @@
         </div>
       </div>
     </section>
-    <!-- /END About Section -->
 
     <!-- **** Projects Section **** -->
     <section id="projects">
@@ -108,25 +103,25 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Notice: each .row is a project -->
+          <!-- project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Blogging Web App</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    BloggingFun is a web app that offers users a creative platform to express 
+                    themselves through write-ups. 
+                    It was made with React, Redux, Node, Express and PostgreSQL. 
+                    Features include Sign Up, Sign In, Create and Delete blog features, and a Search 
+                    feature to find your favorite blog by title.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://bloggingfun.herokuapp.com/"
                 >
                   See Live
                 </a>
@@ -134,7 +129,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/joshuaoni/blogspot"
                 >
                   Source Code
                 </a>
@@ -142,7 +137,6 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -153,34 +147,36 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/a1.png"
                     />
                   </div>
-                </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
+          
+          <div class="social-links">
+            <a rel="noreferrer" title="My Github Profile" href="https://github.com/joshuaoni" target="_blank">
+              <i class="fa fa-angle-double-down fa-inverse"></i>
+            </a>
+          </div>
 
-          <!-- Notice: each .row is a project -->
+          <!--  project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Face Detector</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                   The Face Detector is a web app which utilizes an API to detect all faces 
+                   present in any online photo provided by the user.  It was made with React, Node, Express 
+                   and PostgreSQL. Features include Sign In, Sign Up, Navigation Bar and User sessions.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://fdetectionapp.herokuapp.com/"
                 >
                   See Live
                 </a>
@@ -188,7 +184,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/joshuaoni/facedetection"
                 >
                   Source Code
                 </a>
@@ -196,7 +192,6 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -207,145 +202,94 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/a.jpg"
                     />
                   </div>
-                </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
+          
         </div>
       </div>
     </section>
-    <!-- /END Projects Section -->
 
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
-        </div>
+        <h2 class="section-title">Contact joshua</h2>
+        
       </div>
+      <div class='cont'>
+        <div class='center pb5'>
+            <form  class="furm center" >
+                <div class='boxes'>
+                    <div class='mt0 w-40'>
+                        <div class="mt0">
+                            <label class="f4 ss fw7 w-100" htmlFor="name">NAME/ORGANIZATION</label>
+                            <input 
+                                class="w-100 br1 fw7 f5 pa2 bw0" 
+                                type="text" 
+                                name="name"  
+                                id="name"
+                                required
+                            />
+                        </div>
+                        <div class="">
+                            <label class="f4 fw7 ss w-100" htmlFor="email">EMAIL</label>
+                            <input 
+                                class="w-100 br1 pa2 f5 fw7 bw0" 
+                                type="email" 
+                                name="email" 
+                                id="email"
+                            />
+                        </div>
+                    </div>    
+                    
+                    <div class='w-60'>
+                        <label class='f4 ss fw7 w-100'>MESSAGE</label>
+                        <textarea
+                            class='bw0 f5 br1 pt2 pb2 pr2 pl2 fw7'
+                            rows='10'
+                            required
+                            name='message'
+                        ></textarea>
+                    </div>
+                </div>                
+                  <div class="contact-wrapper load-hidden">
+                    <button
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--resume"
+                      >SEND</button
+                    >
+                  </div>
+                  <div class="resp non"><h3 class='tc f4'>Your message was sent successfully.<br/> I will contact you soon!</h3></div>
+            </form>
+        </div>
+        
+    </div>
     </section>
-    <!-- /END Contact Section -->
 
     <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
       <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
+        <a rel="noreferrer" title="Go back to top" href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
+        <h1 class="tc fw5">Platforms</h1>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" title="My LinkedIn Profile" href="https://www.linkedin.com/in/joshua-oni-387850223/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" title="My Github Profile" href="https://github.com/joshuaoni" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
         <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
       </div>
     </footer>
-    <!-- /END Footer Section -->
+    
 
     <script defer type="module" src="index.js"></script>
   </body>

@@ -1,0 +1,177 @@
+.cont {
+    padding-top: 10vh;
+    padding-bottom: 0;
+    padding: 0 6vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.mt3{
+    margin-top: 1.5rem;
+}
+
+
+.pa2{
+    padding: 1rem;
+}
+
+.center {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.boxes textarea {
+    height: auto;
+    resize: none;
+    width: 97%;
+    margin: 0 0 0 3%;
+    background-color:white;
+    padding: 10px;
+    /* box-shadow: inset 0 1px 1px rgb(0,0,0, 0.08); */
+}
+
+.cont input {
+    background-color: white;
+    /* box-shadow: inset 0 1px 1px rgb(0,0,0, 0.08); */
+}
+
+.f4 {
+    font-size: 1.8rem;
+}
+
+.f5 {
+    font-size: 1.5rem;
+}
+
+.fw7 {
+    font-weight: 1000;
+}
+
+.bw0 {
+    border-width: 0;
+}
+
+.cont button {
+    background: transparent ;
+    font-size: 200%;
+    padding: 1rem 2rem;
+}
+
+.cont button:hover {
+    border-color: rgba(0,0,0,0);
+    color: #036bc7;
+}
+
+.cont-josh {
+    font-size: 3rem;
+    color: rgb(64, 23, 70);
+}
+
+.social {
+    color: white;
+    padding: 5px;
+}
+
+.social + h2 {
+    color: white;
+}
+
+.boxes {
+    display: flex;
+    width: 100%;
+}
+
+.boxes .w-60 label {
+    margin-left: 3%;
+}
+
+.boxes .w-40 .mt0 input {
+    margin-bottom: 0.7rem;
+}
+
+@media screen and (max-width: 45.5em) {
+    .boxes {
+        display: block;
+    }
+    .boxes .w-40 {
+        width: 100%;
+        margin-right: 0.5rem;
+    }
+    .boxes .w-60 {
+        width: 100%;
+    }
+    .boxes .pl3 {
+        padding-left: 0;
+    }
+    .boxes .w-60 label {
+        margin-left: 0;
+    }
+    label + input {
+        margin-bottom: 0.7rem;
+    }
+    .boxes textarea {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 34.9em) {
+    .cont-josh {
+        font-size: 2rem;
+    }
+}
+
+.non {
+    display: none;
+}
+
+.ss {
+    text-align: start;
+}
+
+.tc {
+    text-align: center;
+    line-height: 1.6;
+}
+
+.resp{
+    padding-top: 2rem;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+img {
+    cursor: pointer;
+}
+
+.fw5{
+    font-weight: 500;
+}
+
+.about-wrapper__info-text {
+    font-size: 1.7rem !important;
+}
