@@ -10,3 +10,22 @@ body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
+
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.mail a{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+}
+
+.mail a:hover{
+    opacity: 0.5;
+}
